@@ -1,0 +1,113 @@
+/* Formatting for Portfolio Images */
+.thumbnail {
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    height: 120px;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    background-color: #5c85d6;
+    color: white;
+}
+
+.img-fluid{
+    margin: auto;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    max-height: 200px;
+    float: left;
+}
+
+#about-page{
+    display: block;
+}
+
+/* Adding Background Image */
+body{
+    background-image: url(../imgs/whirlpool.png);
+}
+
+#welcome{
+    background-image: url(../imgs/congruent_pentagon.png);
+    padding: 60px;
+    text-align: center;
+}
+
+.buttonClass{
+    background-color: #b1f6cb;
+    border-radius: 8px;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#brand{
+    width: 60%;
+    display: inline-block;
+}
+/* Defining Content area formatting */
+#main-content{
+    display: none;
+    background-color: white;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+#all-content{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+    padding: 0;
+}
+
+/* Page Header Color */
+.display-4{
+    color: #b1f6cb,
+}
+
+/* Nav Formatting */
+.navbar{
+    display: none;
+}
+
+/* Nav Bar Links */
+#navLinks{
+    justify-content: flex-end;
+    margin-top:25px;
+}
+
+#navLinks :hover{
+    text-decoration-line: underline;
+    text-decoration-color: #b1f6cb;
+}
+
+/* Added a div to define width of Nav bar */
+.nav-width{
+    max-width: 66.66%;
+    margin: auto;
+}
+
+/* Removing default padding on overall Nav */
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    padding: 0;
+}
+
+/* Formatting name in Navbar section */
+#nav-name{
+    height: 100%;
+    background-color: #b1f6cb;
+    padding: 30px 20px 30px 20px;
+    font-size: 16pt;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
