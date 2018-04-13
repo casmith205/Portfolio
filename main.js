@@ -3,11 +3,11 @@ $(document).ready(function(){
 $("#welcomeBtn").on("click", function(event){
   event.preventDefault();
   // Fade out the welcome overhang 
-  $("#welcome").fadeOut();
+  $("#welcome").fadeOut(500);
   // Fade in the Nav Bar
-  $(".navbar").fadeIn();
+  $(".navbar").fadeIn(2000);
   // Fade in the about me section
-  $("#main-content").fadeIn();
+  $("#main-content").fadeIn(2000);
   }); 
 
 });
