@@ -1,4 +1,4 @@
-/* Formatting for Portfolio Images */
+/* Formatting for Portfolio Img */
 .thumbnail {
     position: relative;
     margin: 20px 0px 0px 0px;
@@ -45,6 +45,18 @@ body{
     padding: 10px;
 }
 
+.buttonClass:hover{
+    background-color: black;
+    border-style: hidden;
+    color: #b1f6cb;
+}
+
+.buttonClass:active{
+    background-color: black;
+    border-style: hidden;
+    color: #b1f6cb;
+}
+
 #brand{
     width: 60%;
     display: inline-block;
@@ -55,14 +67,13 @@ body{
     background-color: white;
     padding: 50px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
     line-height: 2;
 }
 
 #all-content{
-    margin-left: 0;
-    margin-right: 0;
+
     max-width: none;
     padding: 0;
 }
@@ -72,15 +83,17 @@ body{
     color: #b1f6cb,
 }
 
-/* Nav Formatting */
-.navbar{
-    display: none;
+hr{
+    border-color: #b1f6cb;
 }
 
-/* Nav Bar Links */
-#navLinks{
-    justify-content: flex-end;
-    margin-top:25px;
+/* Nav Formatting */
+.navbar{
+    opacity: .95;
+}
+
+#mainNav{
+    display: none;
 }
 
 #navLinks :hover{
@@ -88,26 +101,45 @@ body{
     text-decoration-color: #b1f6cb;
 }
 
-/* Added a div to define width of Nav bar */
-.nav-width{
-    max-width: 66.66%;
-    margin: auto;
-}
-
-/* Removing default padding on overall Nav */
-.navbar.navbar-expand-lg.navbar-light.bg-light{
-    padding: 0;
-}
-
 /* Formatting name in Navbar section */
 #nav-name{
-    height: 100%;
     background-color: #b1f6cb;
-    padding: 30px 20px 30px 20px;
+    margin-left: 10%;
+    padding: 20px 20px 20px 20px;
     font-size: 16pt;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
+#navLinks{
+    float: right;
+    padding-top: 20px;
+    margin-right: 10%;
+}
 
+/* PortfolioCard Styling */
+.card{
+    margin: 100px 50px 20px 20px;
+    border-width: 5px;  
+}
 
+.card-img-top{
+    image-orientation: 10rad;
+}
+
+.portfolioBtn{
+    border-color: #b1f6cb;
+    background-color: white;
+}
+
+.portfolioBtn :hover{
+    border: #b1f6cb solid thick;
+}
+
+#homeIcon{
+    width: 30%;
+}
+
+#githubIcon{
+    width: 30%;
+}

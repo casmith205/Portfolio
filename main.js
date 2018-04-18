@@ -10,4 +10,8 @@ $("#welcomeBtn").on("click", function(event){
   $("#main-content").fadeIn(2000);
   }); 
 
+$("body").on("click", ".nav-link", function(event){
+  $(".navbar").fadeIn();
+});
+
 });
