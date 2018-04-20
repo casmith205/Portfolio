@@ -1,147 +1,147 @@
-/* Formatting for Portfolio Img */
-.thumbnail {
-    position: relative;
-    margin: 20px 0px 0px 0px;
-    height: 120px;
-}
+/* OVERALL FORMATTING */
+    /* Adding Background Image */
+    body{
+        background-image: url(../imgs/whirlpool.png);
+    }
 
-.caption {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    background-color: #5c85d6;
-    color: white;
-}
+    hr{
+        border-color: #b1f6cb;
+    }
 
-.img-fluid{
-    margin: auto;
-    margin-right: 20px;
-    margin-bottom: 5px;
-    max-height: 200px;
-    float: left;
-}
+/* WELCOME PAGE FORMATTING */
+    #indexBody{
+        background-image: url(../imgs/congruent_pentagon.png);
+    }
 
-#about-page{
-    display: block;
-}
+    #welcome{
+    
+        padding: 60px;
+        text-align: center;
+    }
 
-/* Adding Background Image */
-body{
-    background-image: url(../imgs/whirlpool.png);
-}
+    .buttonClass{
+        background-color: #b1f6cb;
+        border-radius: 8px;
+        border-color: black;
+        margin: 10px;
+        padding: 10px;
+    }
 
-#welcome{
-    background-image: url(../imgs/congruent_pentagon.png);
-    padding: 60px;
-    text-align: center;
-}
+    .buttonClass:hover{
+        background-color: black;
+        border-style: hidden;
+        color: #b1f6cb;
+    }
 
-.buttonClass{
-    background-color: #b1f6cb;
-    border-radius: 8px;
-    border-color: black;
-    margin: 10px;
-    padding: 10px;
-}
+    .buttonClass:active{
+        background-color: black;
+        border-style: hidden;
+        color: #b1f6cb;
+    }
 
-.buttonClass:hover{
-    background-color: black;
-    border-style: hidden;
-    color: #b1f6cb;
-}
+    #brand{
+        width: 60%;
+        display: inline-block;
+    }
 
-.buttonClass:active{
-    background-color: black;
-    border-style: hidden;
-    color: #b1f6cb;
-}
+/* ABOUT PAGE FORMATTING */
+    /* Overall page items */
+    #about-page{
+        display: block;
+    }
 
-#brand{
-    width: 60%;
-    display: inline-block;
-}
-/* Defining Content area formatting */
-#main-content{
-    display: none;
-    background-color: white;
-    padding: 50px;
-    margin: auto;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    line-height: 2;
-}
-
-#all-content{
-
-    max-width: none;
-    padding: 0;
-}
-
-/* Page Header Color */
-.display-4{
-    color: #b1f6cb,
-}
-
-hr{
-    border-color: #b1f6cb;
-}
-
-/* Nav Formatting */
-.navbar{
-    opacity: .95;
-}
-
-#mainNav{
-    display: none;
-}
-
-#navLinks :hover{
-    text-decoration-line: underline;
-    text-decoration-color: #b1f6cb;
-}
-
-/* Formatting name in Navbar section */
-#nav-name{
-    background-color: #b1f6cb;
-    margin-left: 10%;
-    padding: 20px 20px 20px 20px;
-    font-size: 16pt;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-#navLinks{
-    float: right;
-    padding-top: 20px;
-    margin-right: 10%;
-}
-
-#navspace{
-    margin: 50px;
-}
-
-/* PortfolioCard Styling */
-.card{
-    margin: 20px 20px 20px 20px;
-    border-width: 5px;  
-    width: 100%
-}
+    #all-content{
+        max-width: none;
+        padding: 0;
+    }
+    /* Defining Content area formatting */
+    #main-content{
+        background-color: white;
+        padding: 50px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        line-height: 2;
+        border-radius: 20px;
+    }
+    .img-fluid{
+        margin: auto;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        max-height: 200px;
+        float: left;
+        border-radius: 300px;
+    }
 
 
-.portfolioBtn{
-    border-color: #b1f6cb;
-    background-color: white;
-}
+/* FORMATTING SOCIAL ICONS */
+    #social{
+        padding: 10px;
+        margin-top: 68px;
+    }
 
-.portfolioBtn :hover{
-    border: #b1f6cb solid thick;
-}
+    .socialIcons{
+        display: block;
+        margin: auto;
+        padding: 10px;
+        margin-right: 30px;
+    }
 
-#homeIcon{
-    width: 30%;
-}
+    .socialIcons :hover img{
+        opacity: .5;
+    }
 
-#githubIcon{
-    width: 30%;
-}
+
+/* NAVBAR FORMATTING */
+    .navbar{
+        opacity: .95;
+    }
+
+    #navLinks{
+        float: right;
+        padding-top: 20px;
+        margin-right: 10%;
+    }
+
+    #navLinks :hover{
+        color: #b1f6cb;
+        text-decoration-line: none;
+    }
+
+    /* Formatting name in Navbar section */
+    #nav-name{
+        background-color: #b1f6cb;
+        margin-left: 10%;
+        padding: 20px 20px 20px 20px;
+        font-size: 16pt;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    #navspace{
+        margin: 50px;
+    }
+
+/* PORTFOLIO CARD STYLING*/
+    .card{
+        margin: 20px 20px 20px 20px;
+        border-width: 5px;  
+        width: 100%
+    }
+
+    .portfolioBtn{
+        border-color: #b1f6cb;
+        background-color: white;
+    }
+
+    .portfolioBtn :hover{
+        border: #b1f6cb solid thick;
+    }
+
+    #homeIcon{
+        width: 30%;
+    }
+
+    #githubIcon{
+        width: 30%;
+    }
