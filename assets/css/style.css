@@ -117,15 +117,17 @@ hr{
     margin-right: 10%;
 }
 
-/* PortfolioCard Styling */
-.card{
-    margin: 100px 50px 20px 20px;
-    border-width: 5px;  
+#navspace{
+    margin: 50px;
 }
 
-.card-img-top{
-    image-orientation: 10rad;
+/* PortfolioCard Styling */
+.card{
+    margin: 20px 20px 20px 20px;
+    border-width: 5px;  
+    width: 100%
 }
+
 
 .portfolioBtn{
     border-color: #b1f6cb;
