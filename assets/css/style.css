@@ -91,6 +91,17 @@
         opacity: .5;
     }
 
+    /* Formatting SOCIAL ICONS on the portfolio page */
+    .socialPort{
+        width: 130px;
+        position: fixed;
+        z-index: 1;
+        top: 150px;
+        right: 50px;
+        overflow-x: hidden;
+        padding: 8px 0;
+    }
+
 
 /* NAVBAR FORMATTING */
     .navbar{
