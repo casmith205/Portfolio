@@ -10,7 +10,7 @@ The purpose of this repository is to compile the projects that most represent my
 https://carolyn-smith.herokuapp.com/
 
 ## Technologies Used
-HTML, CSS, Bootstrap, JavaScript
+HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js
 
 ## License 
 MIT License
