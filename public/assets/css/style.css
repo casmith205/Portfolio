@@ -135,9 +135,14 @@
     }
 
 /* PORTFOLIO CARD STYLING*/
+    .card-deck{
+        width: 90%;
+        margin: auto;
+    }
     .card{
         border-width: 5px;
         margin: 20px;
+        max-width: 300px;
     }
 
     .portfolioBtn{
