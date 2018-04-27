@@ -1,7 +1,7 @@
 /* OVERALL FORMATTING */
     /* Adding Background Image */
     body{
-        background-image: url(../imgs/whirlpool.png);
+        background-image: url("/assets/imgs/whirlpool.png");
     }
 
     hr{
@@ -10,7 +10,7 @@
 
 /* WELCOME PAGE FORMATTING */
     #indexBody{
-        background-image: url(../imgs/congruent_pentagon.png);
+        background-image: url("/assets/imgs/congruent_pentagon.png");
     }
 
     #welcome{
