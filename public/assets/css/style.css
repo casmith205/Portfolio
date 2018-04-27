@@ -136,9 +136,8 @@
 
 /* PORTFOLIO CARD STYLING*/
     .card{
-        margin: 20px 20px 20px 20px;
-        border-width: 5px;  
-        width: 100%
+        border-width: 5px;
+        margin: 20px;
     }
 
     .portfolioBtn{
