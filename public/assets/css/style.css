@@ -64,13 +64,14 @@
         line-height: 2;
         border-radius: 20px;
     }
+
     .img-fluid{
         margin: auto;
         margin-right: 20px;
         margin-bottom: 5px;
         max-height: 200px;
         float: left;
-        border-radius: 300px;
+        border-radius: 50px;
     }
 
 
