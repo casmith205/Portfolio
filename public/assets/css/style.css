@@ -8,13 +8,16 @@
         border-color: #b1f6cb;
     }
 
+    .row{
+        margin: 0;
+    }
+
 /* WELCOME PAGE FORMATTING */
     #indexBody{
         background-image: url("/assets/imgs/congruent_pentagon.png");
     }
 
     #welcome{
-    
         padding: 60px;
         text-align: center;
     }
@@ -59,8 +62,6 @@
         background-color: white;
         padding: 50px;
         margin: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
         line-height: 2;
         border-radius: 20px;
     }
@@ -92,13 +93,12 @@
         opacity: .5;
     }
 
-    /* Formatting SOCIAL ICONS on the portfolio page */
     .socialPort{
         width: 130px;
         position: fixed;
         z-index: 1;
         top: 150px;
-        right: 50px;
+        right: 10px;
         overflow-x: hidden;
         padding: 8px 0;
     }
@@ -136,7 +136,6 @@
 
 /* PORTFOLIO CARD STYLING*/
     .card-deck{
-        width: 90%;
         margin: auto;
     }
     .card{
@@ -165,3 +164,31 @@
     #tipsyImg{
         border: thick burlywood solid
     }
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (max-width: 576px) { 
+
+} */
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {     
+    .socialIcons{
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+
+.socialPort{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    right: auto;
+    top: auto;
+}}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) { } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (max-width: 1200px) { } */
