@@ -20,6 +20,10 @@
         margin: 0;
     }
 
+    .container{
+        margin-bottom: 10px;
+    }
+
 /* WELCOME PAGE FORMATTING */
     #indexBody{
         background-image: url("/assets/imgs/congruent_pentagon.png");
