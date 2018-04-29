@@ -105,10 +105,6 @@
 
 
 /* NAVBAR FORMATTING */
-    .navbar{
-        opacity: .95;
-    }
-
     #navLinks{
         float: right;
         padding-top: 20px;
@@ -128,6 +124,7 @@
         font-size: 16pt;
         font-weight: bold;
         letter-spacing: 2px;
+        opacity: 1;
     }
 
     #navspace{
