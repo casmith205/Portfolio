@@ -8,6 +8,14 @@
         border-color: #b1f6cb;
     }
 
+    button{
+        cursor: pointer;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+
     .row{
         margin: 0;
     }
@@ -124,7 +132,6 @@
         font-size: 16pt;
         font-weight: bold;
         letter-spacing: 2px;
-        opacity: 1;
     }
 
     #navspace{
@@ -159,7 +166,7 @@
         width: 30%;
     }
 
-    #tipsyImg{
+    .tipsyImg{
         border: thick burlywood solid
     }
 
