@@ -5,8 +5,8 @@ var path = require("path");
 module.exports = function(app) {
   // HTML GET Requests
   app.get("*", function(req, res) {
-    console.log(req.originalUrl);
-    res.sendFile(path.join(__dirname, "../public"+req.originalUrl));
+    var requestPath =req.originalUrl.toLowerCase();
+    res.sendFile(path.join(__dirname, "../public"+requestPath));
   });
 
   // If no matching route is found default to home
