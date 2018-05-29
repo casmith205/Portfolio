@@ -173,7 +173,9 @@
     .tipsyImg{
         border: thick burlywood solid
     }
-
+    .plantLogo{
+        border: thick darkcyan solid
+    }
 
 @media (max-width: 1235px) {     
     .socialIcons{
